@@ -1,0 +1,36 @@
+@using Feature.Demo.Articles.Models;
+@using Sitecore.Data.Items;
+@using Feature.Demo.Articles.Services.BlogBorrower.Models;
+@model BlogFeedBorrowerViewModel
+
+<div class="search-results col-sm-12 jumbotron">
+    <h1 class="display-4">Blog Feed Borrower</h1>
+
+    @if (Model.SitecoreItems.Any())
+    {
+        <h2>Items Created or Updated</h2>
+
+        <ul>
+            @foreach (Item item in Model.SitecoreItems)
+            {
+                <li>@item.ID.Guid.ToString() - @item.Paths.FullPath</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <a href="/blog-feed-borrower?update=true">Click to "Borrow" items into Sitecore now!</a>
+    }
+</div>
+
+
+
+@foreach (BlogFeedItem feedItem in Model.FeedItems)
+{
+    <div class="search-results col-sm-12 jumbotron">
+        <h1 class="display-4">@feedItem.Title</h1>
+        <p>@feedItem.Updated /@feedItem.FeedID</p>
+        <p>@Html.Raw(feedItem.Description)</p>
+        <p><a href="@feedItem.Link">@feedItem.Link</a></p>
+    </div>
+}

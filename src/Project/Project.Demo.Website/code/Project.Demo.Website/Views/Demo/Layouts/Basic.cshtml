@@ -1,0 +1,29 @@
+﻿@using Sitecore.Mvc;
+@using Sitecore.Mvc.Helpers;
+@inherits WebViewPage
+
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="@Sitecore.Context.Language.CultureInfo.TwoLetterISOLanguageName">
+<!--<![endif]-->
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/Demo/bootstrap.css">
+    <link rel="stylesheet" href="~/css/Demo/style.css">
+
+</head>
+<body class="@(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
+    <div class="container">
+        @Html.Sitecore().Placeholder("Center")
+    </div>
+
+    <script src="~/js/Demo/jquery.min.js"></script>
+    <script src="~/js/Demo/popper.min.js"></script>
+    <script src="~/js/Demo/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+----item----
+version: 1
+id: {3558F122-2518-4D46-86BF-FC9E823EA008}
+database: master
+path: /sitecore/content/Home/Articles/2018/08/Enterprise Portal market explored in latest research
+parent: {08A27185-F2B3-45A7-9A58-BD5493107F53}
+name: Enterprise Portal market explored in latest research
+master: {00000000-0000-0000-0000-000000000000}
+template: {DCE93757-77A5-4B68-A276-227CFB6960F4}
+templatekey: Article
+created: 20190114T213121Z
+
+----version----
+language: en
+version: 1
+revision: a7d69821-7fca-481e-9671-814bae88ee6c
+
+----field----
+field: {42F95762-2E8F-4AA7-94D4-A35D6626B7B9}
+name: Article Type
+key: article type
+content-length: 38
+
+{E4BF1B57-1135-45AD-8C23-8E4FE29B9B15}
+----field----
+field: {EC425F3B-1B12-48E2-A4CF-33DADEDA8465}
+name: Display Date
+key: display date
+content-length: 16
+
+20190114T000000Z
+----field----
+field: {2AEE6781-8B14-4AAE-A50F-C5F03655984C}
+name: Title
+key: title
+content-length: 52
+
+Enterprise Portal market explored in latest research
+----field----
+field: {FFA57B49-7D8B-41B8-AEB5-62EAF164F9B7}
+name: Description
+key: description
+content-length: 3951
+
+<p>This report focuses on the global Enterprise Portal status, future forecast, growth opportunity, key market and key players. The study objectives are to present the Enterprise Portal development in United States, Europe and China.</p>
+<p>Report: www.reportsnreports.com/contacts/r&hellip;aspx?name=1845735</p>
+<p>The&nbsp;Global Enterprise Portal Industry&nbsp;Report 2019 is a professional and in-depth study on the current state of the Enterprise Portal Market.</p>
+<p>Key #Companies Analysis- Red Hat, IBM, &nbsp;Microsoft, &nbsp;SAP, &nbsp;Unicon, &nbsp;Sumerge Software Solutions, &nbsp;Liferay, &nbsp;Sitecore, &nbsp;Iflexion, &nbsp;Tata Consultancy Services, &nbsp;Infosys, &nbsp;HCL Technologies, &nbsp;Accenture, Teamspace, &nbsp;CubeServ, &nbsp;Doyen Solutions</p>
+<p>Complete report on Enterprise Portal market spread across 104 pages, profiling 16 companies and supported with tables and figures. Available at www.reportsnreports.com/contacts/.aspx?name=1845735</p>
+<p>The report provides a basic overview of the industry including definitions, classifications, applications and industry chain structure. The&nbsp;Enterprise Portal market analysis is provided for the international markets including development trends, competitive landscape analysis, and key regions development status.</p>
+<p>The 2019 Deep Research Report on Global and USA Enterprise Portal Industry is a professional and comprehensive report on the global Enterprise Portal industry with a focus on usa. The report monitors the key trends and market drivers in the current scenario and offers on-the-ground insights.</p>
+<p>The report provides a level of depth and understanding of individual country markets that is exceptional in the research arena. From industry overview, industry chain structure to development trends in america and the world along with 2019-2025 forecasts have been minutely put down.</p>
+<p>Development policies&nbsp;and plans are discussed as well as manufacturing processes and cost structures are also analyzed. This report also states import/export consumption, supply and demand Figures, cost, price, revenue and gross margins.</p>
+<p>The report focuses on global major leading Enterprise Portal Industry players providing information such as company profiles, product picture and specification, capacity, production, price, cost, revenue and contact information. Upstream raw materials and equipment and downstream demand analysis is also carried out.</p>
+<p>The Enterprise Portal industry development trends and marketing channels are analyzed. Finally the feasibility of new investment projects are assessed and overall research conclusions offered.</p>
+<p>With the list of tables and figures&nbsp;the report provides key statistics on the state of the industry and is a valuable source of guidance and direction for companies and individuals interested in the market.</p>
+<p>Report: www.reportsnreports.com/.aspx?name=1845735</p>
+<p>Table of Contents</p>
+<p>1 Industry Overview of Enterprise Portal2 Manufacturing Cost Structure Analysis of Enterprise Portal3 Technical Data and Manufacturing Plants Analysis of Enterprise Portal4 Capacity, Production and Revenue Analysis of Enterprise Portal &nbsp;by Regions, Types and Manufacturers5 Price, Cost, Gross and Gross Margin Analysis of Enterprise Portal &nbsp;by Regions, Types and Manufacturers6 Consumption Volume, Consumption Value and Sale Price Analysis of Enterprise Portal &nbsp;by Regions, Types and&nbsp;&nbsp; Applications7 Supply, Import, Export and Consumption Analysis of Enterprise Portal</p>
+<p>8 Major Manufacturers Analysis of Enterprise Portal9 Marketing Trader or Distributor Analysis of Enterprise Portal10 Industry Chain Analysis of Enterprise Portal11 Development Trend of Analysis of Enterprise Portal12 New Project Investment Feasibility Analysis of Enterprise Portal13 Conclusion of the Global Enterprise Portal &nbsp;Industry 2019 Market Research Report</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190114T213121Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a7d69821-7fca-481e-9671-814bae88ee6c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190205T142413Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

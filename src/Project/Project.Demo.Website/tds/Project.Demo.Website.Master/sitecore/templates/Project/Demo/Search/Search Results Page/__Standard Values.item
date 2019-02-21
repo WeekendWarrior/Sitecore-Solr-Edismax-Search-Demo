@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {ACD82422-C01D-4BA4-AFF9-A8FB045F1956}
+database: master
+path: /sitecore/templates/Project/Demo/Search/Search Results Page/__Standard Values
+parent: {5AF2AFAD-FCC3-4176-B5D6-A6C3A0C6C1F7}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {5AF2AFAD-FCC3-4176-B5D6-A6C3A0C6C1F7}
+templatekey: Search Results Page
+created: 20190109T200646Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 410
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{D34B97E0-ED42-4162-81F2-92C0A895F343}"><r id="{AD786EFC-54F5-45EA-B39A-6FEC71C7CEED}" ph="Center" uid="{83688801-DA8A-4061-A2BB-F363E71A0193}" /><r ds="{B006D153-BEA3-4CAF-838B-6C0CA028C309}" id="{B08F8C46-035E-41C1-97D4-C9A350182F0A}" par="" ph="Center" uid="{537121CF-678E-4386-A6AA-7AD1DE8E0932}" /></d></r>
+----version----
+language: en
+version: 1
+revision: d14d5094-90a4-454f-8e22-a991b2b2cf31
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190109T200646Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d14d5094-90a4-454f-8e22-a991b2b2cf31
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190125T203520Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

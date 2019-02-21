@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {08A27185-F2B3-45A7-9A58-BD5493107F53}
+database: master
+path: /sitecore/content/Home/Articles/2018/08
+parent: {D45DF36B-FE4A-430C-9747-19110771F7AC}
+name: 08
+master: {00000000-0000-0000-0000-000000000000}
+template: {A6270531-9C4C-4191-9870-8DE5EE8EB810}
+templatekey: Article Folder
+created: 20190114T213115Z
+
+----version----
+language: en
+version: 1
+revision: af7e7f9e-7831-4111-976a-8cf396595fe5
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190114T213115Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+af7e7f9e-7831-4111-976a-8cf396595fe5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190114T213115Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

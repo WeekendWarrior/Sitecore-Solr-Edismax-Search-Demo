@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {BBD881A9-876B-45CB-861E-6AF3EFD157A6}
+database: master
+path: /sitecore/content/Home/Articles/2019/01/A Tip To Install Sitecore Package Faster
+parent: {2EDB6177-75F9-4852-9307-671A96FC9335}
+name: A Tip To Install Sitecore Package Faster
+master: {00000000-0000-0000-0000-000000000000}
+template: {DCE93757-77A5-4B68-A276-227CFB6960F4}
+templatekey: Article
+created: 20190123T185040Z
+
+----version----
+language: en
+version: 1
+revision: 7d511bec-8a6b-41d1-a6ee-e9546c824d89
+
+----field----
+field: {42F95762-2E8F-4AA7-94D4-A35D6626B7B9}
+name: Article Type
+key: article type
+content-length: 38
+
+{E4BF1B57-1135-45AD-8C23-8E4FE29B9B15}
+----field----
+field: {EC425F3B-1B12-48E2-A4CF-33DADEDA8465}
+name: Display Date
+key: display date
+content-length: 15
+
+20190111T000000
+----field----
+field: {917E43EE-4138-427A-8297-C11F04C31EC2}
+name: Link
+key: link
+content-length: 145
+
+<link target="_blank" url="https://sitecorejourney.nileshthakkar.in/2019/01/a-tip-to-install-sitecore-package-faster.html" linktype="external" />
+----field----
+field: {2AEE6781-8B14-4AAE-A50F-C5F03655984C}
+name: Title
+key: title
+content-length: 41
+
+A Tip To Install Sitecore Package Faster!
+----field----
+field: {FFA57B49-7D8B-41B8-AEB5-62EAF164F9B7}
+name: Description
+key: description
+content-length: 1838
+
+<div dir="ltr" style="text-align: left;" trbidi="on">Are you installing large Sitecore package? It could be update or any other Sitecore package. Is it taking a long time to install?<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-78VXZeXukAs/XDjUbn2qfQI/AAAAAAAAC0E/aeqSZiEizhcpbxriu4-0xbvTOZGMDHT1wCLcBGAs/s1600/install-769x430.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="430" data-original-width="769" height="356" src="https://2.bp.blogspot.com/-78VXZeXukAs/XDjUbn2qfQI/AAAAAAAAC0E/aeqSZiEizhcpbxriu4-0xbvTOZGMDHT1wCLcBGAs/s640/install-769x430.jpeg" width="640" /></a></div><br /><br />Then you can follow this tip to make installer 3 times faster.<br /><br /><b>Tip:</b><br />For time being, go and disable ContentSearch event handler in "packageinstall:items:ended"<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-3ugAPpehvuY/W_VesoxKxGI/AAAAAAAACyQ/6a44F4ylFhwIuijWPRIySRKBC9vx9w93gCLcBGAs/s1600/sitecore%2Bpackage.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="310" data-original-width="877" height="226" src="https://3.bp.blogspot.com/-3ugAPpehvuY/W_VesoxKxGI/AAAAAAAACyQ/6a44F4ylFhwIuijWPRIySRKBC9vx9w93gCLcBGAs/s640/sitecore%2Bpackage.png" width="640" /></a></div><br /><br />Please note that installed items will not be indexed automatically as we have disabled above settings. So you are advised to do manual indexing once package is installed and revert above changes by enabling ContentSearch event handler.<br /><br /><i>Please note that this tip is also shared by someone on twitter and I am just documenting it to spread this tip to others because sharing is caring.</i></div>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190123T185040Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7d511bec-8a6b-41d1-a6ee-e9546c824d89
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190123T190743Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

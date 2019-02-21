@@ -1,0 +1,157 @@
+----item----
+version: 1
+id: {B006D153-BEA3-4CAF-838B-6C0CA028C309}
+database: master
+path: /sitecore/content/Global/Solr Queries/Default Site Search
+parent: {B6DB1CBC-1EB1-4771-906A-37C64DC7E511}
+name: Default Site Search
+master: {00000000-0000-0000-0000-000000000000}
+template: {85D3C9C6-1E91-42D1-A613-BEAA86DEB686}
+templatekey: Solr Query
+created: 20190109T160031Z
+
+----version----
+language: en
+version: 1
+revision: 88e9cb8d-7cc8-4bd1-8652-33cea370fe98
+
+----field----
+field: {4DD25D78-A4B4-4888-BAC7-F7AAAA4BDA05}
+name: debug
+key: debug
+content-length: 1
+
+1
+----field----
+field: {B1E24936-CD9F-47D5-809E-3D4ADFCDEC9A}
+name: Templates
+key: templates
+content-length: 38
+
+{DCE93757-77A5-4B68-A276-227CFB6960F4}
+----field----
+field: {ECD7BF38-6CEF-4ECF-B817-E445F334C454}
+name: qf
+key: qf
+content-length: 25
+
+title_t=1.0&description_t
+----field----
+field: {43ECA852-9923-4204-96A7-FBA9832AD540}
+name: mm
+key: mm
+content-length: 4
+
+100%
+----field----
+field: {E57A2467-8B0F-4071-8898-D20B9D9FCF18}
+name: pf
+key: pf
+content-length: 25
+
+title_t=1.0&description_t
+----field----
+field: {491EAFBD-7404-4B3B-B488-02FD28B61D3A}
+name: ps
+key: ps
+content-length: 1
+
+1
+----field----
+field: {590D1FEE-1B01-4184-AC2A-01D9663AC1E2}
+name: bq
+key: bq
+content-length: 46
+
+_template:(dce9375777a54b68a276227cfb6960f4)^2
+----field----
+field: {5D4444B6-9E21-4347-8644-496E4D487222}
+name: spellcheck
+key: spellcheck
+content-length: 1
+
+1
+----field----
+field: {164640AC-CCC2-478A-A577-35D2D3BB35F9}
+name: spellcheckExtendedResults
+key: spellcheckextendedresults
+content-length: 1
+
+1
+----field----
+field: {BF9B121C-64A7-4895-B912-1C8821F010E6}
+name: spellcheckCollate
+key: spellcheckcollate
+content-length: 1
+
+1
+----field----
+field: {D62DF421-2B7A-44CA-A2AE-CDC15CB0E712}
+name: highlight
+key: highlight
+content-length: 1
+
+1
+----field----
+field: {89BC9307-2284-488E-9969-93322CC2340C}
+name: highlightMethod
+key: highlightmethod
+content-length: 0
+
+
+----field----
+field: {84C3F6A1-1EBB-4287-8061-40C87BCB7DE9}
+name: highlightPre
+key: highlightpre
+content-length: 0
+
+
+----field----
+field: {BAA1E790-1576-4AC5-8F5B-7D74355304AB}
+name: highlightPost
+key: highlightpost
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190109T160031Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+88e9cb8d-7cc8-4bd1-8652-33cea370fe98
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190124T135002Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

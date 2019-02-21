@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {9EBF354D-62B4-4A34-B33A-30D1FBA399EF}
+database: master
+path: /sitecore/templates/Project/Demo/Search/Faceted Search Results Page/__Standard Values
+parent: {B1D077F2-4E5E-4F3F-8B62-54AEC84E5EBD}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {B1D077F2-4E5E-4F3F-8B62-54AEC84E5EBD}
+templatekey: Faceted Search Results Page
+created: 20190125T203444Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 410
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{D34B97E0-ED42-4162-81F2-92C0A895F343}"><r id="{AD786EFC-54F5-45EA-B39A-6FEC71C7CEED}" ph="Center" uid="{83688801-DA8A-4061-A2BB-F363E71A0193}" /><r ds="{6D611213-A477-4C18-977F-A635503EDA74}" id="{F53D446D-D30A-4213-B3A3-65E13CBA3822}" par="" ph="Center" uid="{537121CF-678E-4386-A6AA-7AD1DE8E0932}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 69a54240-65ef-4095-9463-54b31d76fa82
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190109T200646Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+69a54240-65ef-4095-9463-54b31d76fa82
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190125T203510Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

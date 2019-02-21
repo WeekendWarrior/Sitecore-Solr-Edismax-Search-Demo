@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {1F581287-199F-4C2F-B693-7DA93A2D0F3D}
+database: master
+path: /sitecore/content/Home/Articles/2019/01/Our Customers Know Their Customers
+parent: {2EDB6177-75F9-4852-9307-671A96FC9335}
+name: Our Customers Know Their Customers
+master: {00000000-0000-0000-0000-000000000000}
+template: {DCE93757-77A5-4B68-A276-227CFB6960F4}
+templatekey: Article
+created: 20190114T212858Z
+
+----version----
+language: en
+version: 1
+revision: f033cf20-3da2-4628-8bf4-8a5d3e165072
+
+----field----
+field: {42F95762-2E8F-4AA7-94D4-A35D6626B7B9}
+name: Article Type
+key: article type
+content-length: 38
+
+{2E0A5A12-C0F0-4D4D-96ED-BC7F80B51E12}
+----field----
+field: {EC425F3B-1B12-48E2-A4CF-33DADEDA8465}
+name: Display Date
+key: display date
+content-length: 16
+
+20190114T000000Z
+----field----
+field: {2AEE6781-8B14-4AAE-A50F-C5F03655984C}
+name: Title
+key: title
+content-length: 34
+
+Our Customers Know Their Customers
+----field----
+field: {FFA57B49-7D8B-41B8-AEB5-62EAF164F9B7}
+name: Description
+key: description
+content-length: 4148
+
+<p>Sitecore is a global provider of customer experience management software, built primarily for corporate marketing departments and marketing service providers. Sitecore&rsquo;s digital experience platform combines content, commerce, and personalization for marketers to easily create a seamless individualized experience. VCCircle publishes a Sitecore report fortnightly on VCCircle&rsquo;s resource library to capture experiences on an individual level across all channels and customer interactions. It gives users insights into a 360-degree visitor profile management for both - marketers&rsquo; and the customers&rsquo;. Some of the showcased reports:&nbsp;</p>
+<ul>
+<li>How to personalize your website to boost conversions - This report outlines 9 steps to Personalization Success. It allows users to explore how personalization based on &lsquo;Contextual Intelligence&rsquo; can boost content consumption &amp; lower bounce rates. It further allows you to understand your customers' in-the-moment intent and respond with relevant content. It is an approach that delivers measurable experiences that improve performance, build loyalty, and drive real results across every customer engagement channel.</li>
+<li>10 Personalization Tactics &ndash; This report is an extension of the &lsquo;9 Steps to Personalization Success&rsquo; report. It highlights the difference between &lsquo;context marketing&rsquo; and &lsquo;personalization&rsquo;. Personalization is a tactic that most marketers would willingly deliver, but Sitecore&rsquo;s proves that very few actually deliver. Personalizing customer experiences, whether on a website, in an email push, or a social media campaign, requires one to deliver content that takes into account the context of customers&rsquo; current and previous brand interactions. At Sitecore, it&rsquo;s called &ldquo;context marketing.&rdquo; It empowers businesses to know every customer and shape their experiences in real time and at scale.</li>
+<li>How to Choose the Best CMS - We&rsquo;ve come a long way since the days when a content management system (CMS) was simply a way to manage and update the content on your website. Today, a web CMS is just one type of technology one needs to consistently deliver excellent customer experience. While web CMS is a crucial component, one must look at it as part of a larger customer experience management capability. Today&rsquo;s customers expect a seamless, multichannel experience which anticipates their needs and wants. To achieve these business outcomes, companies are embracing the discipline of customer experience management and investing in the digital transformation that enables it.</li>
+<li>Context Marketing in Action &ndash; It is the perfect case study example of Sitecore&rsquo;s customers. This report showcases how early nutrition brand Danone Nutricia transformed the experiences of mothers visiting the website of Nutricia. They used contextual intelligence strategy suggested by Sitecore experts to get to know mothers, then offered them timely and personalized content along with calls to action. With Sitecore Business Optimization Strategies team&rsquo;s assistance, Nutricia became a friend and trusted advisor to mothers&mdash;and their own transformed business results.</li>
+<li>10 Tactics for Optimizing Commerce &ndash; One&rsquo;s mission with commerce is about creating shopping experiences that earn trust&mdash;experiences that are helpful, seamless across channels, and empathetic and responsive to consumers&rsquo; needs and intents in the moment. If your customer is just starting the journey to explore an expensive purchase, the last thing you want to give them is a site full of &ldquo;buy now&rdquo; promotions. This Sitecore report outlines 10 different well-proven tactics for taking a customer-first approach to optimize the commerce experience.</li>
+</ul>
+<p>These reports act as an insightful guide for enhancing customer experience by focusing on personalization marketing strategies that would ultimately lead to a seamless individualized experience. Leverage these reports to deliver the best customer experience.</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190114T212858Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f033cf20-3da2-4628-8bf4-8a5d3e165072
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190114T212952Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

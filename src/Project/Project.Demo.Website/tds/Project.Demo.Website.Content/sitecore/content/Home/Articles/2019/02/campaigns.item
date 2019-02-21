@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {1189613A-085E-432E-A045-648733217C21}
+database: master
+path: /sitecore/content/Home/Articles/2019/02/Sitecore Campaigns  Using a Friendly Name
+parent: {AD4D4BE9-E935-4DF2-B722-9336CD58AB2B}
+name: Sitecore Campaigns  Using a Friendly Name
+master: {00000000-0000-0000-0000-000000000000}
+template: {DCE93757-77A5-4B68-A276-227CFB6960F4}
+templatekey: Article
+created: 20190221T134746Z
+
+----version----
+language: en
+version: 1
+revision: 860fa5d2-f65e-4fda-a358-b49e5226d0ae
+
+----field----
+field: {42F95762-2E8F-4AA7-94D4-A35D6626B7B9}
+name: Article Type
+key: article type
+content-length: 38
+
+{E4BF1B57-1135-45AD-8C23-8E4FE29B9B15}
+----field----
+field: {EC425F3B-1B12-48E2-A4CF-33DADEDA8465}
+name: Display Date
+key: display date
+content-length: 15
+
+20190212T000000
+----field----
+field: {917E43EE-4138-427A-8297-C11F04C31EC2}
+name: Link
+key: link
+content-length: 133
+
+<link target="_blank" url="http://www.rockpapersitecore.com/2019/02/sitecore-campaigns-using-a-friendly-name/" linktype="external" />
+----field----
+field: {2AEE6781-8B14-4AAE-A50F-C5F03655984C}
+name: Title
+key: title
+content-length: 42
+
+Sitecore Campaigns – Using a Friendly Name
+----field----
+field: {FFA57B49-7D8B-41B8-AEB5-62EAF164F9B7}
+name: Description
+key: description
+content-length: 505
+
+Working with a client, there was a question as to whether or not we could create a campaign with a querystring parameter that wasn&#8217;t a GUID. Why the client didn&#8217;t like a GUID&#8230;I have no..idea&#8230; oh yeah, it&#8217;s ugly. I was prepared to write some code to basically map the Item name or a slug... <div class="read-more navbutton"><a href="http://www.rockpapersitecore.com/2019/02/sitecore-campaigns-using-a-friendly-name/">Read More<i class="fa fa-angle-double-right"></i></a></div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190221T134746Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+860fa5d2-f65e-4fda-a358-b49e5226d0ae
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190221T134746Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+extranet\Anonymous

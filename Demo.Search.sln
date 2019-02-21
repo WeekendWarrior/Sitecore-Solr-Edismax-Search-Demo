@@ -1,0 +1,154 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{49FC6ECA-E7BF-4BAF-ABDA-67574AF12A99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{25DE829D-95B1-4699-9781-759574BF6E3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{C9BD7685-FB9B-4FA8-84FC-3A4772D0FEF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation.Demo.Search", "Foundation.Demo.Search", "{60A41745-B5B8-48D7-B99B-E5A8A66244EB}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Foundation.Demo.Search.Master", "src\Foundation\tds\Foundation.Demo.Search.Master\Foundation.Demo.Search.Master.scproj", "{25CD1EA8-5C5C-4653-88A5-131E5BC04B1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.Demo.Search", "src\Foundation\code\Foundation.Demo.Searcher\Foundation.Demo.Search.csproj", "{AE06765D-8643-401C-9606-388D76CDEB48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{B9A69E2E-981D-4B06-A1C4-2CBE81919DEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Articles", "Articles", "{3F675FD6-B1C6-40D2-A71B-35C9504E2E91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{6EA2228B-9D02-4065-B940-64A923979DA7}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Demo.Website", "src\Project\Project.Demo.Website\code\Project.Demo.Website\Project.Demo.Website.csproj", "{F9A2FAFD-51AC-4D38-B373-D56B33234970}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project.Demo.Website", "Project.Demo.Website", "{585CAA41-C61D-4629-8722-81051EEF6826}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Project.Demo.Website.Master", "src\Project\Project.Demo.Website\tds\Project.Demo.Website.Master\Project.Demo.Website.Master.scproj", "{D2FA5658-35E9-4E16-AE3A-C57DBE128856}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Project.Demo.Website.Content", "src\Project\Project.Demo.Website\tds\Project.Demo.Website.Content\Project.Demo.Website.Content.scproj", "{2DFDEC81-9185-46DB-9E69-8EF835A28EA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{CC373933-6556-40D6-9E75-825FD8EF8DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Demo.Search", "src\Feature\Demo\Search\code\Feature.Demo.Search\Feature.Demo.Search.csproj", "{C9AF7327-6D33-4B61-8116-8F73EAB046B1}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Feature.Demo.Search.Master", "src\Feature\Demo\Search\tds\Feature.Demo.Search.Master\Feature.Demo.Search.Master.scproj", "{398FB4F4-7BAA-4D45-88D9-D46EA1220AA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Global", "Global", "{6EDBA71F-B94C-49D2-A5C3-512C0043FC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Demo.Global", "src\Feature\Demo\Global\code\Feature.Demo.Global\Feature.Demo.Global.csproj", "{76D727A3-3F1D-4682-A056-EDE8E276D5E5}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Feature.Demo.Global.Master", "src\Feature\Demo\Global\tds\Feature.Demo.Global.Master\Feature.Demo.Global.Master.scproj", "{34C2E856-49B9-4D1C-BEC4-6E400261BC05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solr", "Solr", "{2AA986A3-088B-4E60-97B4-4D49A50B3ABB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "habitat_web_index", "habitat_web_index", "{E3E3A501-79D7-40DE-B5E3-2BCFD9383B1E}"
+	ProjectSection(SolutionItems) = preProject
+		src\Configuration\Solr\habitat_web_index\managed-schema = src\Configuration\Solr\habitat_web_index\managed-schema
+		src\Configuration\Solr\habitat_web_index\protwords_suggest_ngram.txt = src\Configuration\Solr\habitat_web_index\protwords_suggest_ngram.txt
+		src\Configuration\Solr\habitat_web_index\solrconfig.xml = src\Configuration\Solr\habitat_web_index\solrconfig.xml
+		src\Configuration\Solr\habitat_web_index\stopwords_suggest_ngram.txt = src\Configuration\Solr\habitat_web_index\stopwords_suggest_ngram.txt
+		src\Configuration\Solr\habitat_web_index\synonyms_index_suggest_ngram.txt = src\Configuration\Solr\habitat_web_index\synonyms_index_suggest_ngram.txt
+		src\Configuration\Solr\habitat_web_index\synonyms_query_suggest_ngram.txt = src\Configuration\Solr\habitat_web_index\synonyms_query_suggest_ngram.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Demo.Articles", "src\Feature\Demo\Articles\code\Feature.Demo.Articles\Feature.Demo.Articles.csproj", "{00077702-465B-4551-BA91-18CD63A69BD0}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Feature.Demo.Articles.Master", "src\Feature\Demo\Articles\tds\Feature.Demo.Articles.Master\Feature.Demo.Articles.Master.scproj", "{CA293645-E7AE-4E0F-B453-BD7BC8F36BC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25CD1EA8-5C5C-4653-88A5-131E5BC04B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CD1EA8-5C5C-4653-88A5-131E5BC04B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25CD1EA8-5C5C-4653-88A5-131E5BC04B1C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{25CD1EA8-5C5C-4653-88A5-131E5BC04B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25CD1EA8-5C5C-4653-88A5-131E5BC04B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25CD1EA8-5C5C-4653-88A5-131E5BC04B1C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AE06765D-8643-401C-9606-388D76CDEB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE06765D-8643-401C-9606-388D76CDEB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE06765D-8643-401C-9606-388D76CDEB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE06765D-8643-401C-9606-388D76CDEB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A2FAFD-51AC-4D38-B373-D56B33234970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A2FAFD-51AC-4D38-B373-D56B33234970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A2FAFD-51AC-4D38-B373-D56B33234970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A2FAFD-51AC-4D38-B373-D56B33234970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FA5658-35E9-4E16-AE3A-C57DBE128856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FA5658-35E9-4E16-AE3A-C57DBE128856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FA5658-35E9-4E16-AE3A-C57DBE128856}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D2FA5658-35E9-4E16-AE3A-C57DBE128856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FA5658-35E9-4E16-AE3A-C57DBE128856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FA5658-35E9-4E16-AE3A-C57DBE128856}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2DFDEC81-9185-46DB-9E69-8EF835A28EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFDEC81-9185-46DB-9E69-8EF835A28EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFDEC81-9185-46DB-9E69-8EF835A28EA6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2DFDEC81-9185-46DB-9E69-8EF835A28EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFDEC81-9185-46DB-9E69-8EF835A28EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DFDEC81-9185-46DB-9E69-8EF835A28EA6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C9AF7327-6D33-4B61-8116-8F73EAB046B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AF7327-6D33-4B61-8116-8F73EAB046B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AF7327-6D33-4B61-8116-8F73EAB046B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AF7327-6D33-4B61-8116-8F73EAB046B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398FB4F4-7BAA-4D45-88D9-D46EA1220AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398FB4F4-7BAA-4D45-88D9-D46EA1220AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398FB4F4-7BAA-4D45-88D9-D46EA1220AA1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{398FB4F4-7BAA-4D45-88D9-D46EA1220AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398FB4F4-7BAA-4D45-88D9-D46EA1220AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398FB4F4-7BAA-4D45-88D9-D46EA1220AA1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{76D727A3-3F1D-4682-A056-EDE8E276D5E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D727A3-3F1D-4682-A056-EDE8E276D5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D727A3-3F1D-4682-A056-EDE8E276D5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D727A3-3F1D-4682-A056-EDE8E276D5E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C2E856-49B9-4D1C-BEC4-6E400261BC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C2E856-49B9-4D1C-BEC4-6E400261BC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C2E856-49B9-4D1C-BEC4-6E400261BC05}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{34C2E856-49B9-4D1C-BEC4-6E400261BC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C2E856-49B9-4D1C-BEC4-6E400261BC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C2E856-49B9-4D1C-BEC4-6E400261BC05}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{00077702-465B-4551-BA91-18CD63A69BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00077702-465B-4551-BA91-18CD63A69BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00077702-465B-4551-BA91-18CD63A69BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00077702-465B-4551-BA91-18CD63A69BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA293645-E7AE-4E0F-B453-BD7BC8F36BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA293645-E7AE-4E0F-B453-BD7BC8F36BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA293645-E7AE-4E0F-B453-BD7BC8F36BC8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA293645-E7AE-4E0F-B453-BD7BC8F36BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA293645-E7AE-4E0F-B453-BD7BC8F36BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA293645-E7AE-4E0F-B453-BD7BC8F36BC8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60A41745-B5B8-48D7-B99B-E5A8A66244EB} = {49FC6ECA-E7BF-4BAF-ABDA-67574AF12A99}
+		{25CD1EA8-5C5C-4653-88A5-131E5BC04B1C} = {60A41745-B5B8-48D7-B99B-E5A8A66244EB}
+		{AE06765D-8643-401C-9606-388D76CDEB48} = {60A41745-B5B8-48D7-B99B-E5A8A66244EB}
+		{B9A69E2E-981D-4B06-A1C4-2CBE81919DEA} = {25DE829D-95B1-4699-9781-759574BF6E3A}
+		{3F675FD6-B1C6-40D2-A71B-35C9504E2E91} = {B9A69E2E-981D-4B06-A1C4-2CBE81919DEA}
+		{F9A2FAFD-51AC-4D38-B373-D56B33234970} = {585CAA41-C61D-4629-8722-81051EEF6826}
+		{585CAA41-C61D-4629-8722-81051EEF6826} = {C9BD7685-FB9B-4FA8-84FC-3A4772D0FEF9}
+		{D2FA5658-35E9-4E16-AE3A-C57DBE128856} = {585CAA41-C61D-4629-8722-81051EEF6826}
+		{2DFDEC81-9185-46DB-9E69-8EF835A28EA6} = {585CAA41-C61D-4629-8722-81051EEF6826}
+		{CC373933-6556-40D6-9E75-825FD8EF8DBA} = {B9A69E2E-981D-4B06-A1C4-2CBE81919DEA}
+		{C9AF7327-6D33-4B61-8116-8F73EAB046B1} = {CC373933-6556-40D6-9E75-825FD8EF8DBA}
+		{398FB4F4-7BAA-4D45-88D9-D46EA1220AA1} = {CC373933-6556-40D6-9E75-825FD8EF8DBA}
+		{6EDBA71F-B94C-49D2-A5C3-512C0043FC6F} = {B9A69E2E-981D-4B06-A1C4-2CBE81919DEA}
+		{76D727A3-3F1D-4682-A056-EDE8E276D5E5} = {6EDBA71F-B94C-49D2-A5C3-512C0043FC6F}
+		{34C2E856-49B9-4D1C-BEC4-6E400261BC05} = {6EDBA71F-B94C-49D2-A5C3-512C0043FC6F}
+		{2AA986A3-088B-4E60-97B4-4D49A50B3ABB} = {6EA2228B-9D02-4065-B940-64A923979DA7}
+		{E3E3A501-79D7-40DE-B5E3-2BCFD9383B1E} = {2AA986A3-088B-4E60-97B4-4D49A50B3ABB}
+		{00077702-465B-4551-BA91-18CD63A69BD0} = {3F675FD6-B1C6-40D2-A71B-35C9504E2E91}
+		{CA293645-E7AE-4E0F-B453-BD7BC8F36BC8} = {3F675FD6-B1C6-40D2-A71B-35C9504E2E91}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {42CDD4D9-6BCE-4F6F-99E8-CEC30EF79B58}
+	EndGlobalSection
+EndGlobal

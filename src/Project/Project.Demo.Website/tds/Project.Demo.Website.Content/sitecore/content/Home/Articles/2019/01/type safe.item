@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {508097D3-EF37-4E05-8F0A-B36456D7E19F}
+database: master
+path: /sitecore/content/Home/Articles/2019/01/Structured Type Safe Settings in Sitecore
+parent: {2EDB6177-75F9-4852-9307-671A96FC9335}
+name: Structured Type Safe Settings in Sitecore
+master: {00000000-0000-0000-0000-000000000000}
+template: {DCE93757-77A5-4B68-A276-227CFB6960F4}
+templatekey: Article
+created: 20190125T192219Z
+
+----version----
+language: en
+version: 1
+revision: 3c4e3ef7-34b2-4684-b5ad-3a067956abc4
+
+----field----
+field: {42F95762-2E8F-4AA7-94D4-A35D6626B7B9}
+name: Article Type
+key: article type
+content-length: 38
+
+{E4BF1B57-1135-45AD-8C23-8E4FE29B9B15}
+----field----
+field: {EC425F3B-1B12-48E2-A4CF-33DADEDA8465}
+name: Display Date
+key: display date
+content-length: 15
+
+20190124T000000
+----field----
+field: {917E43EE-4138-427A-8297-C11F04C31EC2}
+name: Link
+key: link
+content-length: 129
+
+<link target="_blank" url="https://blog.coates.dk/2019/01/24/structured-type-safe-settings-in-sitecore-9/" linktype="external" />
+----field----
+field: {2AEE6781-8B14-4AAE-A50F-C5F03655984C}
+name: Title
+key: title
+content-length: 42
+
+Structured, Type Safe Settings in Sitecore
+----field----
+field: {FFA57B49-7D8B-41B8-AEB5-62EAF164F9B7}
+name: Description
+key: description
+content-length: 330
+
+This feature seems to be overlooked, so I hope this blog post will draw more attention to this feature, and make it&#8217;s use more widespread. In Sitecore, it is easy to map configuration settings to a C# class, whilst maintaining a structure that adheres to the helix principles, see the config below. Then the mapped [&#8230;]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190125T192219Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3c4e3ef7-34b2-4684-b5ad-3a067956abc4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190125T192219Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+extranet\Anonymous

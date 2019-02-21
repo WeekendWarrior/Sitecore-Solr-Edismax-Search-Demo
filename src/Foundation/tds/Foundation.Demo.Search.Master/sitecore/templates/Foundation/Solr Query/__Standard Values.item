@@ -1,0 +1,115 @@
+----item----
+version: 1
+id: {FC995BDC-06FE-454F-AC40-9625B50012DA}
+database: master
+path: /sitecore/templates/Foundation/Solr Query/__Standard Values
+parent: {85D3C9C6-1E91-42D1-A613-BEAA86DEB686}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {85D3C9C6-1E91-42D1-A613-BEAA86DEB686}
+templatekey: Solr Query
+created: 20181231T152202Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----version----
+language: en
+version: 1
+revision: 8270a38b-f8b3-48bf-a8d1-2b9a36f05b47
+
+----field----
+field: {97F3D687-9506-4D38-A8C3-09F92DFAA4A0}
+name: rows
+key: rows
+content-length: 2
+
+10
+----field----
+field: {566E8C87-29C6-413A-8A9F-4E05D22366C2}
+name: Locations
+key: locations
+content-length: 38
+
+{0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+----field----
+field: {20E3B2E2-1C9D-45ED-B2BD-D70491A25FF6}
+name: spellcheckDictionary
+key: spellcheckdictionary
+content-length: 7
+
+default
+----field----
+field: {9417CC5B-B74B-4A7E-BF17-17C0018501AE}
+name: spellcheckCollateExtendedResults
+key: spellcheckcollateextendedresults
+content-length: 1
+
+1
+----field----
+field: {684CE51C-0EAB-44B0-92C1-CE17E5364F1D}
+name: highlightUsePhraseHighlighter
+key: highlightusephrasehighlighter
+content-length: 1
+
+1
+----field----
+field: {74309B6F-7C26-486F-8C81-0E9DB07CFBD0}
+name: highlightFragSize
+key: highlightfragsize
+content-length: 3
+
+100
+----field----
+field: {E4374C25-1F87-425B-A98B-61C6B539F445}
+name: highlightSnippets
+key: highlightsnippets
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181231T152202Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8270a38b-f8b3-48bf-a8d1-2b9a36f05b47
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190115T204023Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

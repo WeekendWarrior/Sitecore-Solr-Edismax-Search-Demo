@@ -1,0 +1,285 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>2dfdec81-9185-46db-9e69-8ef835a28ea6</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>Project.Demo.Website.Content</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>Project.Demo.Website.Content</AssemblyName>
+    <Name>Project.Demo.Website.Content</Name>
+    <RootNamespace>Project.Demo.Website.Content</RootNamespace>
+    <SourceWebVirtualPath>/Project.Demo.Website.csproj</SourceWebVirtualPath>
+    <SourceWebProject>{f9a2fafd-51ac-4d38-b373-d56b33234970}|src\Project\Project.Demo.Website\code\Project.Demo.Website\Project.Demo.Website.csproj</SourceWebProject>
+    <SourceWebPhysicalPath>..\..\code\Project.Demo.Website</SourceWebPhysicalPath>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <DisableFileDeployment>True</DisableFileDeployment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\code\Project.Demo.Website\Project.Demo.Website.csproj">
+      <Project>{f9a2fafd-51ac-4d38-b373-d56b33234970}</Project>
+      <Name>Project.Demo.Website</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SitecoreItem Include="sitecore\content.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Global.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Global\Article Types.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Global\Article Types\Blog Post.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Global\Article Types\Event.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Global\Article Types\For Fun.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Global\Article Types\News.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Global\Solr Queries.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Global\Solr Queries\Default Edge N Gram.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Global\Solr Queries\Default Site Search.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Global\Solr Queries\Site Search Faceted.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2018.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2018\02.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2018\02\Headless CMS as a Microservice.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2018\08.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2018\08\Enterprise Portal market explored in latest research.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2018\10.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2018\10\Sitecore Symposium 2018.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\agent aggregation.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Sitecore ERROR  Exception When Executing Agent Aggregation</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\customers.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Our Customers Know Their Customers</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\graphQL 1.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Sitecore Forms and GraphQL in harmony  building custom control Part 1</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\graphQL 2.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Sitecore Forms and GraphQL in harmony  GraphQL in all its glory Part 2</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\habitat tds.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Change to the source control strategy on Habitat TDS</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\install faster.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>A Tip To Install Sitecore Package Faster</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\javascript services.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Sitecore JavaScript Services - Customizing Scaffolding of Components</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\mvp2019.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Sitecore MVP 2019</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\new year.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Happy New Year from Verndale</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\optimize solr queries.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Optimize Sitecore Solr queries</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\package deployment.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Stuck on Stay tuned page after SCWDP package deployment</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\react jss.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Catching Server-side Rendering Errors in React JSS Apps</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\Securing Sitecore deployed on Azure web appsPAAS using Application GatewayWAF Log analytics and Azur.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\Securing Sitecore Topology deployed on Azure web appsPAAS using Application GatewayWAF Log analytics.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\SIFless 211.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\SIFless 211.item" />
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\Sitecore ERROR  Exception When Executing Agent Aggregation.item" />
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\Sitecore Forms and GraphQL in harmony  building custom control Part 1.item" />
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\Sitecore Forms and GraphQL in harmony  GraphQL in all its glory Part 2.item" />
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\Sitecore Identity Part 1.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\Sitecore Identity Part 1.item" />
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\solr as service.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>You can have Solr as a Service now</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\Structured Type Safe Settings in Sitecore.item" />
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\Stuck on Stay tuned page after SCWDP package deployment.item" />
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\type safe.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Structured Type Safe Settings in Sitecore</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\01\You can have Solr as a Service now.item" />
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\02.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\02\campaigns.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Sitecore Campaigns  Using a Friendly Name</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\02\packages.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Sitecore create packages using PowerShell</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\02\preparing.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Preparing for AI-driven customer experiences</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\02\searchsolr.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Sorting with Sitecore Content SearchSolr</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\02\sif1.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>SIF-less  Time for a rebrand</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\02\sif2.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>SIF-less  Time for a re-brand</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\02\sif3.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>SIFless 212  Validation at Execution</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\02\sif4.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Sitecore installation Framework SIF custom install path</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home\Articles\2019\02\sitecore js.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <SitecoreName>Sitecore JavaScript Services - Manifest API Demystified</SitecoreName>
+    </SitecoreItem>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>

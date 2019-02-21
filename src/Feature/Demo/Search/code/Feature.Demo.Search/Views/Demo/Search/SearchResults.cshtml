@@ -1,0 +1,181 @@
+@using Feature.Demo.Search.Models
+@using Feature.Demo.Search.Services.Search.Models
+@using System.Collections.Generic
+@using SolrNet.Impl
+@using System.Linq
+@using PagedList.Mvc;
+@using PagedList;
+
+@model Feature.Demo.Search.Models.SearchResultsViewModel
+
+<div class="search-results col-sm-12 jumbotron">
+    <h1 class="display-4">Search for <em>@Model.Query</em></h1>
+    @if (!string.IsNullOrWhiteSpace(Model.FacetName))
+    {
+        <p>Selected Facet: @Model.FacetName <a href="/search-results?q=@(Model.Query)&pageNumber=1">[Clear]</a></p>
+    }
+    <table>
+        <tbody>
+            <tr>
+                <td>NumFound:</td>
+                <td>@Model.SearchResults.NumFound</td>
+            </tr>
+        </tbody>
+    </table>
+    @if (Model.SearchResults.Any())
+    {
+        <h2 class="display-12">Results</h2>
+        <ol>
+            @foreach (PageContentResultItem result in Model.SearchResults)
+            {
+                <li style="margin: 0px 0px 20px; padding: 10px; border:solid 1px #eee">
+                    <strong>@result.Title</strong><br />
+                    @(result.Description != null && result.Description.Length >= 100 ? result.Description.Substring(0, 100) + "..." : result.Description + "...")<br />
+                    <i>@result.Id</i>
+                </li>
+            }
+        </ol>
+
+        @Html.PagedListPager((IPagedList)Model.PagedResults, page => string.Format("/search-results?q={0}&pageNumber={1}", Model.Query, page))
+    }
+</div>
+
+<div class="search-results-spellcheck col-sm-12 jumbotron">
+    <h1 class="display-4">Facets</h1>
+
+    @if (!string.IsNullOrWhiteSpace(Model.FacetName))
+    {
+        <p>Selected Facet: @Model.FacetName <a href="/search-results?q=@(Model.Query)&pageNumber=1">[Clear]</a></p>
+    }
+
+    @if (Model.FacetCounts != null && Model.FacetCounts.Any())
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th>Key</th>
+                    <th>Count</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (SearchResultsViewModel.FacetCount fc in Model.FacetCounts)
+                {
+                    <tr>
+                        <td><a href="/search-results?q=@(Model.Query)&pageNumber=1&facet=@(fc.Key)">@fc.Name</a></td>
+                        <td>@fc.Count</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No facet data available.</p>
+    }
+</div>
+
+<div class="search-results-spellcheck col-sm-12 jumbotron">
+    <h1 class="display-4">SpellChecking</h1>
+    <p class="lead">
+        For more info, see the <a href="https://doc.sitecore.com/developers/90/platform-administration-and-architecture/en/using-the-solr-spell-checker.html">Official Sitecore Documentation</a>
+    </p>
+    @if (Model.SearchResults.SpellChecking != null && (Model.SearchResults.SpellChecking.Any() || Model.SearchResults.SpellChecking.Collations.Any()))
+    {
+        <h2 class="display-12">SpellChecking</h2>
+        foreach (SpellCheckResult sr in Model.SearchResults.SpellChecking)
+        {
+            <div class="row">
+                @foreach (string s in sr.Suggestions)
+                {
+                    <div class="col-sm-12 col-md-4">
+                        Correction: <a href="/search-results?q=@s">@s</a>
+                    </div>
+                }
+            </div>
+        }
+
+        <h2 class="display-12">SpellChecking Collations</h2>
+        foreach (CollationResult cr in Model.SearchResults.SpellChecking.Collations)
+        {
+            <p>CollationQuery: <a href="/search-results?q=@cr.CollationQuery">@cr.CollationQuery</a></p>
+
+            foreach (KeyValuePair<string, string> corr in cr.MisspellingsAndCorrections)
+            {
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <p>Key: @corr.Key</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <p>Correction: <a href="/search-results?q=@corr.Value">@corr.Value</a></p>
+                    </div>
+                </div>
+            }
+
+        }
+    }
+    else
+    {
+        <p>No spellcheck data available.</p>
+    }
+</div>
+
+<div class="search-results-highlights jumbotron">
+    <h1 class="display-4">Highlights</h1>
+    <p class="lead">
+        For more info, see the <a href="https://doc.sitecore.com/developers/90/platform-administration-and-architecture/en/using-solr-to-highlight-search-results.html">Official Sitecore Documentation</a>
+    </p>
+    @if (Model.SearchResults.Highlights != null && Model.SearchResults.Highlights.Keys.Any())
+    {
+        <ul style="margin: 0; padding: 0;">
+            @foreach (string highlightsKey in Model.SearchResults.Highlights.Keys)
+            {
+                <li style="list-style-type:none; border:solid 1px #666; margin-bottom:40px; padding: 3px;">
+                    <strong>@highlightsKey</strong>
+                    @{
+                        HighlightedSnippets snippet = Model.SearchResults.Highlights[highlightsKey];
+                        <table>
+                            @foreach (string snippetKey in snippet.Keys)
+                            {
+                                <tr>
+                                    <td>@snippetKey</td>
+                                    <td>
+                                        @{
+                                            <ul>
+                                                @foreach (string suggestion in snippet[snippetKey])
+                                                {
+                                                    <li>@Html.Raw(suggestion)</li>
+                                                }
+                                            </ul>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+                    }
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No highlight data available.</p>
+    }
+</div>
+
+
+<div class="search-results-highlights jumbotron">
+    <h1 class="display-4">Debug</h1>
+    @if (Model.SearchResults.Debug != null)
+    {
+        <pre>
+        @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.SearchResults.Debug, Newtonsoft.Json.Formatting.Indented))
+    </pre>
+    }
+    else
+    {
+        <p>No debug data available.</p>
+    }
+    <p>Sitecore Support Ticket #524901 Response:</p>
+    <p>Unfortunately, at the moment, this feature is not supported by Sitecore and we have registered a Wish request to add this feature to future releases.</p>
+    <p>To track the future status of this wish, please use the reference number 309585. More information about public reference numbers can be found here: <a href="https://kb.sitecore.net/articles/853187">https://kb.sitecore.net/articles/853187</a></p>
+</div>

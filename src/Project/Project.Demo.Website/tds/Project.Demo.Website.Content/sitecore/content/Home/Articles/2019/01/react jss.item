@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {96301B7E-E119-48B0-B314-B241E76091DC}
+database: master
+path: /sitecore/content/Home/Articles/2019/01/Catching Server-side Rendering Errors in React JSS Apps
+parent: {2EDB6177-75F9-4852-9307-671A96FC9335}
+name: Catching Server-side Rendering Errors in React JSS Apps
+master: {00000000-0000-0000-0000-000000000000}
+template: {DCE93757-77A5-4B68-A276-227CFB6960F4}
+templatekey: Article
+created: 20190123T185035Z
+
+----version----
+language: en
+version: 1
+revision: 8b17c497-4b83-418f-80f5-9dc353b56462
+
+----field----
+field: {42F95762-2E8F-4AA7-94D4-A35D6626B7B9}
+name: Article Type
+key: article type
+content-length: 38
+
+{E4BF1B57-1135-45AD-8C23-8E4FE29B9B15}
+----field----
+field: {EC425F3B-1B12-48E2-A4CF-33DADEDA8465}
+name: Display Date
+key: display date
+content-length: 15
+
+20190118T000000
+----field----
+field: {917E43EE-4138-427A-8297-C11F04C31EC2}
+name: Link
+key: link
+content-length: 138
+
+<link target="_blank" url="https://asmagin.com/2019/01/18/catching-server-side-rendering-errors-in-react-jss-apps/" linktype="external" />
+----field----
+field: {2AEE6781-8B14-4AAE-A50F-C5F03655984C}
+name: Title
+key: title
+content-length: 55
+
+Catching Server-side Rendering Errors in React JSS Apps
+----field----
+field: {FFA57B49-7D8B-41B8-AEB5-62EAF164F9B7}
+name: Description
+key: description
+content-length: 354
+
+It was quite common for Sitecore MVC implementation to add logic around renderings that will catch unexpected exceptions in them and save your page from complete collapse. Such logic hides your component from end users and might only put something in HTML comments, while during preview or editing experience it will give some visual indication [&#8230;]
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190123T185035Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8b17c497-4b83-418f-80f5-9dc353b56462
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190123T190742Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

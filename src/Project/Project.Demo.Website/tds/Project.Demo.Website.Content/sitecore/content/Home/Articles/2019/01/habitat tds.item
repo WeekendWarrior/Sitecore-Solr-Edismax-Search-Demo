@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {A12F935A-8D19-4A1B-82EB-01DFE74FE3CA}
+database: master
+path: /sitecore/content/Home/Articles/2019/01/Change to the source control strategy on Habitat TDS
+parent: {2EDB6177-75F9-4852-9307-671A96FC9335}
+name: Change to the source control strategy on Habitat TDS
+master: {00000000-0000-0000-0000-000000000000}
+template: {DCE93757-77A5-4B68-A276-227CFB6960F4}
+templatekey: Article
+created: 20190205T140831Z
+
+----version----
+language: en
+version: 1
+revision: c4fc7d3b-b40d-40f2-a3d8-ca56fd184be1
+
+----field----
+field: {42F95762-2E8F-4AA7-94D4-A35D6626B7B9}
+name: Article Type
+key: article type
+content-length: 38
+
+{E4BF1B57-1135-45AD-8C23-8E4FE29B9B15}
+----field----
+field: {EC425F3B-1B12-48E2-A4CF-33DADEDA8465}
+name: Display Date
+key: display date
+content-length: 15
+
+20190129T000000
+----field----
+field: {917E43EE-4138-427A-8297-C11F04C31EC2}
+name: Link
+key: link
+content-length: 132
+
+<link target="_blank" url="http://www.seanholmesby.com/change-to-the-source-control-strategy-on-habitat-tds/" linktype="external" />
+----field----
+field: {2AEE6781-8B14-4AAE-A50F-C5F03655984C}
+name: Title
+key: title
+content-length: 52
+
+Change to the source control strategy on Habitat TDS
+----field----
+field: {FFA57B49-7D8B-41B8-AEB5-62EAF164F9B7}
+name: Description
+key: description
+content-length: 347
+
+The HabitatTDS fork of the original Habitat codebase has been around for a while, but with the recent updates, I&#8217;ve decided to change the strategy that was in place (in case anyone was wondering where to grab the code from). Previously, the master branch on HabitatTDS was kept exactly in sync with the original repo&#8217;s master [&#8230;]
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190205T140831Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c4fc7d3b-b40d-40f2-a3d8-ca56fd184be1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190205T140831Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+extranet\Anonymous

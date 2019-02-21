@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {0FB8E3F6-53A8-4C73-B0F9-0E5E55B84BE7}
+database: master
+path: /sitecore/content/Home/Articles/2019/01/Sitecore Forms and GraphQL in harmony  building custom control Part 1
+parent: {2EDB6177-75F9-4852-9307-671A96FC9335}
+name: Sitecore Forms and GraphQL in harmony  building custom control Part 1
+master: {00000000-0000-0000-0000-000000000000}
+template: {DCE93757-77A5-4B68-A276-227CFB6960F4}
+templatekey: Article
+created: 20190123T185043Z
+
+----version----
+language: en
+version: 1
+revision: 35c666c3-fab2-4fa3-85ae-c487ced8c6a6
+
+----field----
+field: {42F95762-2E8F-4AA7-94D4-A35D6626B7B9}
+name: Article Type
+key: article type
+content-length: 38
+
+{E4BF1B57-1135-45AD-8C23-8E4FE29B9B15}
+----field----
+field: {EC425F3B-1B12-48E2-A4CF-33DADEDA8465}
+name: Display Date
+key: display date
+content-length: 15
+
+20190110T000000
+----field----
+field: {917E43EE-4138-427A-8297-C11F04C31EC2}
+name: Link
+key: link
+content-length: 167
+
+<link target="_blank" url="https://visionsincode.wordpress.com/2019/01/10/sitecore-forms-and-graphql-in-harmony-building-custom-control-part-1/" linktype="external" />
+----field----
+field: {2AEE6781-8B14-4AAE-A50F-C5F03655984C}
+name: Title
+key: title
+content-length: 72
+
+Sitecore Forms and GraphQL in harmony – building custom control (Part 1)
+----field----
+field: {FFA57B49-7D8B-41B8-AEB5-62EAF164F9B7}
+name: Description
+key: description
+content-length: 610
+
+Happy people, happy new year! A new and a wonderful year is waiting for you. Specially now when Sitecore released the best release ever &#8211; Sitecore 9.1. But before we start, I need to repeat myself about Blazor. Like the Roman senator Cato(the Elder) concluded to all his speeches in the senate &#8211; Carthago delenda &#8230; <a class="more-link" href="https://visionsincode.wordpress.com/2019/01/10/sitecore-forms-and-graphql-in-harmony-building-custom-control-part-1/">More <span class="screen-reader-text">Sitecore Forms and GraphQL in harmony &#8211; building custom control (Part&#160;1)</span></a>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190123T185044Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+35c666c3-fab2-4fa3-85ae-c487ced8c6a6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190123T190745Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
